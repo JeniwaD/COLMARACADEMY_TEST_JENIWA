@@ -11,6 +11,11 @@ nav {
   align-items: center;
 }
 
+ nav a:hover {
+  background-color: #d6eaf8;
+  transition: background-color 1s;
+}
+
 #lion-logo {
   width: 30px;
   height: 40px;
@@ -41,6 +46,8 @@ strong {
   font-family: Arial, sans-serif;
   color: black;
   text-decoration: none;
+  padding-top: 26px;
+  padding-bottom: 26px;
 }
 
 .menu {
@@ -140,6 +147,10 @@ h1 {
 #choice a {
   color: #3498DB;
   text-decoration: none;
+}
+
+#choice a:hover {
+  text-decoration: underline;
 }
 
 #p2-img {
@@ -248,10 +259,10 @@ h1 {
   margin-top: -6px;
   padding-bottom: 35px;
 }
-
 /*--END SECTION 3--*/
 
 /*--START SECTION 4--*/
+
 .section-4 {
   display: flex;
   flex-direction: row;
@@ -261,6 +272,9 @@ h1 {
   padding-bottom: 32px;
   box-shadow: 0 4px 1px -2px #BDC3C7;
 }
+
+.sec4-nodecor {
+ color: #2E4053;}
 
 #p4 {
   width: 60%;
@@ -348,6 +362,10 @@ footer {
   padding-right: 24px;
   text-decoration: none;
   color: #707b7c;
+}
+
+.terms:hover, .privacy:hover {
+  text-decoration: underline;
 }
 
 /*--END FOOTER--*/
